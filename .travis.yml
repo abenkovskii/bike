@@ -5,6 +5,6 @@ matrix:
     language: shell
     before_install:
     - choco install msys2
-    - pacman --help
+    - C:\tools\msys64\pacman --help
     script:
     - echo Hello World
