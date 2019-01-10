@@ -5,8 +5,8 @@ matrix:
     language: shell
     before_install:
     - choco install msys2
-    - ls C:\tools\msys64
-    - dir C:\tools\msys64
+    - "ls C:\tools\msys64"
+    - "dir C:\tools\msys64"
     cache:
       directories:
       - C:\tools
