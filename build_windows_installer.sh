@@ -1,2 +1,1 @@
-
-echo Hello world
+choco install msys2
