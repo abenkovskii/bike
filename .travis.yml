@@ -4,7 +4,6 @@ matrix:
     os: windows
     language: shell
     before_install:
-    - choco install python3
+    - choco install pip
     script:
-    - python -c "print('Hello World!')"
-    - ls C:\Python37
+    - pip --help
