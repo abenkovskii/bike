@@ -5,6 +5,9 @@ matrix:
     language: shell
     before_install:
     - choco install msys2
-    - C:\tools\msys64\pacman --help
-    script:
-    - echo Hello World
+    - ls C:\tools\msys64
+    - dir C:\tools\msys64
+    pacman -S mingw-w64-x86_64-python3-gobject
+    cache:
+      directories:
+      - C:\tools
