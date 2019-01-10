@@ -3,7 +3,6 @@ matrix:
   - name: "Windows installer"
     os: windows
     language: shell
-    before_install: choco install msys2
+    before_install: choco install gtk-runtime
     script:
     - echo Hello World
-    - kill
