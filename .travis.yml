@@ -3,4 +3,4 @@ matrix:
   - name: "Windows installer"
     os: windows
     language: shell
-    script: build_windows_installer.sh
+    script: ./build_windows_installer.sh
