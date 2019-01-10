@@ -3,6 +3,6 @@ matrix:
   - name: "Windows installer"
     os: windows
     language: shell
-    before_install: choco install gtk-runtime
+    before_install: choco install gtk-runtime python3
     script:
     - echo Hello World
