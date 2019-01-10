@@ -1,1 +1,4 @@
-
+matrix:
+  include:
+  - name: "Windows installer"
+    os: windows
