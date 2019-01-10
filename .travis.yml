@@ -8,6 +8,3 @@ matrix:
     script:
     - python -c "print('Hello World!')"
     - ls C:\Python37
-    cache:
-      directories:
-      - C:\Python37
