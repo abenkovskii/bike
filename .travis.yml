@@ -2,3 +2,4 @@ matrix:
   include:
   - name: "Windows installer"
     os: windows
+    language: shell
