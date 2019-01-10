@@ -3,6 +3,10 @@ matrix:
   - name: "Windows installer"
     os: windows
     language: shell
-    before_install: choco install gtk-runtime python3
+    before_install:
+    - choco install gtk-runtime
+    - choco install python3
+    - pip install PyGObject
     script:
     - echo Hello World
+    - python -c "print('Hello World!')"
