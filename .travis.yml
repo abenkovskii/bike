@@ -7,7 +7,6 @@ matrix:
     - choco install msys2
     - ls C:\tools\msys64
     - dir C:\tools\msys64
-    pacman -S mingw-w64-x86_64-python3-gobject
     cache:
       directories:
       - C:\tools
