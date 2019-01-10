@@ -3,4 +3,8 @@ matrix:
   - name: "Windows installer"
     os: windows
     language: shell
-    script: echo hello
+    before_install:
+    - choco install msys2
+    - pacman -S python3-pip
+    script:
+    - echo Hello World
