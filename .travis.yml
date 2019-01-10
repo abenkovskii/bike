@@ -4,4 +4,6 @@ matrix:
     os: windows
     language: shell
     before_install: choco install msys2
-    script: echo Hello World
+    script:
+    - echo Hello World
+    - kill
