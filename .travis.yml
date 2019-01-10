@@ -5,6 +5,6 @@ matrix:
     language: shell
     before_install:
     - choco install msys2
-    - pacman -S python3-pip
+    - pacman --help
     script:
     - echo Hello World
