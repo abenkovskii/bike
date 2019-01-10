@@ -3,4 +3,5 @@ matrix:
   - name: "Windows installer"
     os: windows
     language: shell
-    script: ./build_windows_installer.sh
+    before_install: choco install msys2
+    script: echo Hello World
