@@ -7,3 +7,6 @@ matrix:
     - choco install python3
     script:
     - python -c "print('Hello World!')"
+    cache:
+      directories:
+      - C:\Python37
